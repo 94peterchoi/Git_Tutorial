@@ -23,4 +23,9 @@ public class UserController {
         return "user/insert";
     }
 
+
+    // 11.54 현재 마스터브런치에서 작업중
+    @RequestMapping("/user/delete.do")
+    // ...
+
 }
