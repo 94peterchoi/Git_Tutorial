@@ -23,4 +23,7 @@ public class UserController {
         return "user/insert";
     }
 
+   // 11:51 branch develop에서 딜리트 작업중
+   @RequestMapping("/user/delete.do")
+
 }
