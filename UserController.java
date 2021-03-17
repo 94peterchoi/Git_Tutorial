@@ -1,5 +1,6 @@
 @Controller
 public class UserController {
+    // 왜 안될까요 ..
     // 로그인 페이지로 이동
     @RequestMapping("/user/login.do")
     public String login() {
