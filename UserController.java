@@ -22,10 +22,10 @@ public class UserController {
 
         return "user/insert";
     }
+    
+   // 충돌해결 - master 브랜치에서 작업했던 거 날렸음
+   // 11:51 branch develop에서 딜리트 작업중
+   @RequestMapping("/user/delete.do")
 
-
-    // 11.54 현재 마스터브런치에서 작업중
-    @RequestMapping("/user/delete.do")
-    // ...
 
 }
